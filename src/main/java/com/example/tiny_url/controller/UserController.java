@@ -2,7 +2,6 @@ package com.example.tiny_url.controller;
 
 import com.example.tiny_url.model.User;
 import com.example.tiny_url.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,7 +22,6 @@ public class UserController {
 
     @PostMapping("/")
     private ResponseEntity<?> addUser(@RequestBody String name) {
-        User user = new User(name);
-        return ResponseEntity.ok(userRepository.save(user));
+        return ResponseEntity.ok(userRepository.save(new User(name)));
     }
 }

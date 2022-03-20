@@ -3,7 +3,7 @@ package com.example.tiny_url.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.Random;
+import java.util.UUID;
 
 @Document(collection = "users")
 public class User {
@@ -15,8 +15,13 @@ public class User {
 
     public User(String name) {
         this.name = name;
-        this.id = String.valueOf(900000000 + new Random().nextInt(1000000000));
-        this.apiKey = String.valueOf(900000000 + new Random().nextInt(1000000000));
+        this.id = UUID.
+                randomUUID().
+                toString();
+        this.apiKey = UUID.
+                randomUUID().
+                toString()
+                .replaceAll("-", "");
     }
 
     public String getName(String name) {
