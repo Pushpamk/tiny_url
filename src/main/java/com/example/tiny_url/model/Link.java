@@ -1,24 +1,24 @@
 package com.example.tiny_url.model;
 
 public class Link {
-    private String originalLink;
+    private String originalURL;
     private String key;
 
     public Link(String originalLink, String key) {
-        this.originalLink = originalLink;
+        this.originalURL = originalLink;
         this.key = key;
     }
 
-    public String getOriginalLink() {
-        return originalLink;
+    public String getOriginalURL() {
+        return originalURL;
     }
 
     public String getKey() {
         return key;
     }
 
-    public void setOriginalLink(String originalLink) {
-        this.originalLink = originalLink;
+    public void setOriginalURL(String originalURL) {
+        this.originalURL = originalURL;
     }
 
     public void setKey(String key) {

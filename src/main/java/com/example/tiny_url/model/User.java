@@ -24,7 +24,7 @@ public class User {
                 .replaceAll("-", "");
     }
 
-    public String getName(String name) {
+    public String getName() {
         return name;
     }
 
@@ -32,7 +32,14 @@ public class User {
         return id;
     }
 
+    public String getApiKey() { return apiKey; }
+
+    public void setId() { this.name = name; }
+
+    public void setApiKey() { this.apiKey = apiKey; }
+
     public void setName() {
         this.name = name;
     }
+
 }
