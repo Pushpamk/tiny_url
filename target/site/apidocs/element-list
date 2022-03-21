@@ -1,0 +1,6 @@
+com.example.tiny_url
+com.example.tiny_url.config
+com.example.tiny_url.controller
+com.example.tiny_url.model
+com.example.tiny_url.repository
+com.example.tiny_url.service
