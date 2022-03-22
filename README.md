@@ -20,7 +20,9 @@ URL shortener to reduce a long link.
 ## Usage
 ### Running Application  
 
-`mvn spring-boot:run`  
+```
+mvn spring-boot:run
+```
 
 ### Creating user
 Request  
