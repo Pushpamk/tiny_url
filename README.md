@@ -1,6 +1,5 @@
 # Tiny URL - URL shortener application
 
-***
 
 URL shortener to reduce a long link.
 
@@ -72,6 +71,6 @@ curl --location --request GET 'localhost:8080/api/v1/link/eUyZG'
 Response  
 ```
 {
-    "https://www.linkedin.com/in/pushpam-kumar/
+    "https://www.linkedin.com/in/pushpam-kumar/"
 }
 ```
