@@ -4,7 +4,7 @@
 URL shortener to reduce a long link.
 
 <!-- Placeholder for badges https://shields.io -->
-![Java 11](https://img.shields.io/badge/java-11-007396?style=flat-square&logo=java) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.6.4-6DB33F?style=flat-square&logo=spring-boot) ![Redis](https://img.shields.io/badge/Redis-6.2.6-DC382D?style=flat-square&logo=redis) ![MongoDB](https://img.shields.io/badge/MonogDB-5.0.6-47A248?style=flat-square&logo=mongodb)
+![Java 11](https://img.shields.io/badge/java-11-007396?style=flat-square&logo=java) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.6.4-6DB33F?style=flat-square&logo=spring-boot) ![Redis](https://img.shields.io/badge/Redis-6.2.6-DC382D?style=flat-square&logo=redis) ![MongoDB](https://img.shields.io/badge/MonogDB-5.0.6-47A248?style=flat-square&logo=mongodb) ![Maven](https://img.shields.io/badge/Maven-3.6.3-C71A36?style=flat-square&logo=apache-maven)
 
 
 ## Prerequisite 
@@ -12,6 +12,10 @@ URL shortener to reduce a long link.
 2. Spring Boot
 3. Redis 
 4. MongoDB
+5. Maven
+
+## Working
+![System Design](system-design.png)
 
 ## Usage
 ### Running Application  
